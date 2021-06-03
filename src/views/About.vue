@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about flex items-center justify-center">
     <list/>
   </div>
 </template>
