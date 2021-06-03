@@ -1,0 +1,42 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.wrapper {
+  display:flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.wrapper-page {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 100%;
+}
+button {
+  max-width: 160px;
+}
+button:focus, input:focus, select:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+input {
+  background-color: transparent !important;
+  
+}
